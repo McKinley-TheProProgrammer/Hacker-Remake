@@ -8,13 +8,14 @@ public class PlayerScript : MonoBehaviour
 {
     
     private Movement2D movement2D;
+    [SerializeField] private bool normalizeMovement;
 
     private void Start()
     {
         movement2D = GetComponent<Movement2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         
         float x = Input.GetAxis("Horizontal");
@@ -24,6 +25,6 @@ public class PlayerScript : MonoBehaviour
         
         //movement2D.Move(mov,true);
 
-        movement2D.Move(x, y, false);
+        movement2D.Move(x, y, normalizeMovement);
     }
 }

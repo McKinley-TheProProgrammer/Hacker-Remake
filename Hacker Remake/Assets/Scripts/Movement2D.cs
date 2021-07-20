@@ -6,7 +6,8 @@ using UnityEngine;
 public class Movement2D : MonoBehaviour
 {
     public float speed = 10;
-    
+
+    private const float maxSpeed = 20f;
     private Rigidbody2D rb;
 
     private Vector3 velDir;
@@ -29,13 +30,11 @@ public class Movement2D : MonoBehaviour
     public Vector2 Move(float x, float y, bool normalize)
     {
         Vector3 movement = new Vector2(x, y);
+        
+        rb.velocity = normalize ? movement.normalized * speed  : movement;
 
-        //if (rb.velocity.magnitude > .1f)
-        //{
-            rb.velocity = normalize ? movement.normalized * (speed) : movement * (speed);
-        //}
-
-        return rb.velocity;
+        
+        return rb.velocity * Time.fixedDeltaTime;
     }
     
     

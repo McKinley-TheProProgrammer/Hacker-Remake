@@ -226,7 +226,7 @@ Rigidbody2D:
   m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53622d21a76eeff48af09dc326497bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9.5
+  speed: 15
 --- !u!114 &352928384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80214688c9354534798a06fcf7c4606c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalizeMovement: 1
 --- !u!70 &352928385
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
