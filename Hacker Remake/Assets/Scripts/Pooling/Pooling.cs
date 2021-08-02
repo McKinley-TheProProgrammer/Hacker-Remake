@@ -11,11 +11,17 @@ public class Pooling : MonoBehaviour
         public GameObject prefab;
         public int size;
     }
+    
     private Dictionary<string, Queue<GameObject>> poolingDictionary = new Dictionary<string, Queue<GameObject>>();
 
     [SerializeField] private List<Pool> poolList = new List<Pool>();
 
     private IPooledObj iPool = null;
+
+
+    private static Pooling instance;
+    public static Pooling Instance => instance;
+    
     void Awake()
     {
         foreach (Pool pool in poolList)
@@ -34,13 +40,15 @@ public class Pooling : MonoBehaviour
             poolingDictionary.Add(pool.tag,filaDeObjetos);
         }
 
+        instance = this;
+
     }
 
     public GameObject SpawnFromPool(string poolTag, Vector3 pos, Quaternion rot)
     {
         if (!poolingDictionary.ContainsKey(poolTag))
         {
-            Debug.LogError("Tag não encontrada");
+            Debug.LogError($"Tag não encontrada {poolTag} " );
             return null;
         }
         
@@ -52,7 +60,10 @@ public class Pooling : MonoBehaviour
         pooledObj.SetActive(true);
         pooledObj.transform.position = pos;
         pooledObj.transform.rotation = rot;
-
+        
+        
+        poolingDictionary[poolTag].Enqueue(pooledObj);
+        
         return pooledObj;
     }
     
