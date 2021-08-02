@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HealthBar_Ring 2
+  m_Shader: {fileID: -6465566751694194690, guid: 661964ae64a5a5f4f914666aef0fa894, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_590b192c7ff1424191e3afeb11cdd08a_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_1c2f96b864124961bb74dee68cb83973: 1
+    - Boolean_58f912a0981a4d20949b1a7355500162: 1
+    - Boolean_63caee9fb98a4306bc99a3f539de2857: 1
+    - Boolean_ba43a66ee14d4dbea6bde5e4fa7980c3: 0
+    - Boolean_d26c835e56164088b0068b4e124610db: 1
+    - Vector1_07588f41f0af4f3d916c5e52b6799132: 4.38
+    - Vector1_1: 0
+    - Vector1_37814061aa514d3687452af901c9f373: 0
+    - Vector1_6ac7da8188494df8b65f3ed611f2217b: 0.08
+    - Vector1_8ab8cbaf86a54e35857df6ae01168d4a: 0.68
+    - Vector1_90783c4f38a24296ba8391d48efc60d7: 0.5
+    - Vector1_9afd3496a4b44a06b24d873b78f27341: 0.86
+    - Vector1_9fc2c444c81e4c93ae3a12ecd9bc0e71: 10
+    - Vector1_aea4e064f8ee4b908837e86e401bc1c3: 0.81
+    - Vector1_df1df27cb9d349d7bb45468027d24479: 1.28
+    - _EnableExternalAlpha: 0
+    - _HealthBarPulsing: 1
+    - _HealthBarSegments: 2.28
+    - _RemovedSegmetns: 1.4
+    - _RingRadius: 0.19
+    - _RingRotateAuto: 1
+    - _RingRotation: 54.12
+    - _RingWidth: 0.8
+    - _SegmentCount: 19.22
+    - _SegmentSpacing: 0.08
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RingColor: {r: 0.1191993, g: 1, b: 0, a: 0}
+    - _RingInColor: {r: 0.9622642, g: 0, b: 0.84528667, a: 0}
+    - _RingOutColor: {r: 44.21148, g: 0, b: 4.1610804, a: 0}
+  m_BuildTextureStacks: []

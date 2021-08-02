@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class MethFunctions 
+public static class MethFunctions
 {
+
+    public const float PI = Mathf.PI;
+    
+    public const float TAU = Mathf.PI * 2;
+        
+        
     /// <summary>
     /// Retorna um valor entre a e b baseado em um valor t = [0,1]
     /// </summary>
