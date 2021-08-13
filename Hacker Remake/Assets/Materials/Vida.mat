@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HealthBar_Ring 4
+  m_Name: Vida
   m_Shader: {fileID: -6465566751694194690, guid: 661964ae64a5a5f4f914666aef0fa894, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -24,10 +24,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainnTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -56,42 +52,33 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_1c2f96b864124961bb74dee68cb83973: 1
+    - Boolean_1c2f96b864124961bb74dee68cb83973: 0
     - Boolean_58f912a0981a4d20949b1a7355500162: 1
-    - Boolean_63caee9fb98a4306bc99a3f539de2857: 1
-    - Boolean_ba43a66ee14d4dbea6bde5e4fa7980c3: 1
-    - Boolean_cca998cc56c042feacb94c98b9d84380: 0
-    - Boolean_d26c835e56164088b0068b4e124610db: 1
-    - Vector1_07588f41f0af4f3d916c5e52b6799132: 4.98
+    - Boolean_63caee9fb98a4306bc99a3f539de2857: 0
+    - Boolean_ba43a66ee14d4dbea6bde5e4fa7980c3: 0
+    - Boolean_d26c835e56164088b0068b4e124610db: 0
+    - Vector1_07588f41f0af4f3d916c5e52b6799132: 13.57
     - Vector1_1: 0
-    - Vector1_21c9e64334b54fa499cb0d292fb07f4e: 0.37
-    - Vector1_2fe0d3fd71a643c9b68b6b15be8fc7b3: 0.115
     - Vector1_37814061aa514d3687452af901c9f373: 0
-    - Vector1_6ac7da8188494df8b65f3ed611f2217b: 0.08
-    - Vector1_8ab8cbaf86a54e35857df6ae01168d4a: 1.55
-    - Vector1_90783c4f38a24296ba8391d48efc60d7: 0.64
-    - Vector1_9afd3496a4b44a06b24d873b78f27341: 0.439
-    - Vector1_9fc2c444c81e4c93ae3a12ecd9bc0e71: 10
-    - Vector1_aea4e064f8ee4b908837e86e401bc1c3: 0.68
-    - Vector1_b83f8f738d9b49ca9b78a646bc3c4ae2: 31
-    - Vector1_df1df27cb9d349d7bb45468027d24479: 6.93
+    - Vector1_8ab8cbaf86a54e35857df6ae01168d4a: 0.12
+    - Vector1_90783c4f38a24296ba8391d48efc60d7: 0.65
+    - Vector1_9afd3496a4b44a06b24d873b78f27341: 0.66
+    - Vector1_aea4e064f8ee4b908837e86e401bc1c3: 1.59
+    - Vector1_df1df27cb9d349d7bb45468027d24479: 6.5
     - _EnableExternalAlpha: 0
     - _HealthBarPulsing: 0
-    - _HealthBarSegments: 27.6
-    - _RemovedSegmetns: 20.19
-    - _RingRadius: 0.6
+    - _HealthBarSegments: 9.92
+    - _RemovedSegmetns: -0.94
+    - _RingRadius: 0.71
     - _RingRotateAuto: 0
-    - _RingRotation: 17.88
-    - _RingWidth: 0.35
-    - _SegmentCount: 60.4
-    - _SegmentSpacing: 0
+    - _RingRotation: 62.73
+    - _RingWidth: 0.164
+    - _SegmentCount: 0.97
+    - _SegmentSpacing: 0.08
     m_Colors:
-    - Color_337e74df5eaa4da58fde46cf8c99ec1d: {r: 1, g: 0, b: 0.076741695, a: 0}
-    - Color_942fd5014e9e4e938c6e8f8929576905: {r: 0, g: 0.1333333, b: 1.960784, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RingColor: {r: 0.1191993, g: 1, b: 0, a: 0}
-    - _RingInColor: {r: 0.7740929, g: 1, b: 0, a: 0}
-    - _RingOutColor: {r: 3.4101133, g: 4, b: 0, a: 1}
+    - _RingInColor: {r: 0.1176469, g: 1, b: 0, a: 0}
+    - _RingOutColor: {r: 0, g: 5.278032, b: 4.5122, a: 0}
   m_BuildTextureStacks: []
