@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c82caa233ace14ba3508c643e6f018, type: 3}
   m_Name: CommonEnemy
   m_EditorClassIdentifier: 
-  name: 
+  name: Enemy_Common_sine
   enemySprite: {fileID: 0}
   health: 20
   damage: 5
-  speed: 0
+  speed: 5
   detectRange: 0
   jumpForce: 0

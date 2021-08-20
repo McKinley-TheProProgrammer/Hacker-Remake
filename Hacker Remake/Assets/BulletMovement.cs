@@ -48,6 +48,8 @@ public class BulletMovement : MonoBehaviour , IHit
         if (bulletHp <= 0)
         {
             bulletHp = hpAux;
+            GameObject sfx = Pooling.Instance.SpawnFromPool("Explosion1", transform.position, Quaternion.identity);
+            
             gameObject.SetActive(false);
         }
         //gameObject.SetActive(false);

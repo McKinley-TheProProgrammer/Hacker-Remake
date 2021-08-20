@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class WeaponBase2 : MonoBehaviour
 {
+   public WeaponData weaponProps;
    public Transform shootPoint;
    public abstract void Shoot();
 }
