@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Pistol : WeaponBase2
 {
-    
-   
-
     //[SerializeField] private Transform shootPoint;
 
     public override void Shoot()
     {
-        GameObject bullet = Pooling.Instance.SpawnFromPool("BALLS", shootPoint.transform.position, Quaternion.identity);
+        GameObject bullet = Pooling.Instance.SpawnFromPool(bulletTag, shootPoint.transform.position, Quaternion.identity);
     }
 }

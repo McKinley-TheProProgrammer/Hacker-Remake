@@ -6,5 +6,7 @@ public abstract class WeaponBase2 : MonoBehaviour
 {
    public WeaponData weaponProps;
    public Transform shootPoint;
+   public string bulletTag = "BALAS";
+   
    public abstract void Shoot();
 }
